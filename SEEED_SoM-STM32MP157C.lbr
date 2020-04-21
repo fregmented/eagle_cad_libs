@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
@@ -71,7 +71,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -1086,6 +1086,64 @@
 <hole x="17" y="-17" drill="3.6"/>
 <hole x="0.42" y="16.84" drill="3.6"/>
 </package>
+<package name="NPI-STM32MP157C">
+<wire x1="46.7297625" y1="82.3005625" x2="44.4297625" y2="82.3005625" width="0.127" layer="21"/>
+<wire x1="44.4297625" y1="82.3005625" x2="44.4297625" y2="85.0005625" width="0.127" layer="21"/>
+<wire x1="44.4297625" y1="85.0005625" x2="2.9997625" y2="85.0005625" width="0.127" layer="21"/>
+<wire x1="2.9997625" y1="85.0005625" x2="-0.0002375" y2="82.0005625" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.0002375" y1="82.0005625" x2="-0.0002375" y2="3.0005625" width="0.127" layer="21"/>
+<wire x1="-0.0002375" y1="3.0005625" x2="2.9997625" y2="0.0005625" width="0.127" layer="21" curve="90"/>
+<wire x1="2.9997625" y1="0.0005625" x2="52.9997625" y2="0.0005625" width="0.127" layer="21"/>
+<wire x1="52.9997625" y1="0.0005625" x2="55.9997625" y2="3.0005625" width="0.127" layer="21" curve="90"/>
+<wire x1="55.9997625" y1="3.0005625" x2="55.9997625" y2="82.0005625" width="0.127" layer="21"/>
+<wire x1="55.9997625" y1="82.0005625" x2="52.9997625" y2="85.0005625" width="0.127" layer="21" curve="90"/>
+<wire x1="52.9997625" y1="85.0005625" x2="46.7297625" y2="85.0005625" width="0.127" layer="21"/>
+<wire x1="46.7297625" y1="85.0005625" x2="46.7297625" y2="82.3005625" width="0.127" layer="21"/>
+<pad name="P$1" x="51.232" y="76.65" drill="1.2" shape="square"/>
+<pad name="P$2" x="53.772" y="76.65" drill="1.2"/>
+<pad name="P$3" x="51.232" y="74.11" drill="1.2"/>
+<pad name="P$4" x="53.772" y="74.11" drill="1.2"/>
+<pad name="P$5" x="51.232" y="71.57" drill="1.2"/>
+<pad name="P$6" x="53.772" y="71.57" drill="1.2"/>
+<pad name="P$7" x="51.232" y="69.03" drill="1.2"/>
+<pad name="P$8" x="53.772" y="69.03" drill="1.2"/>
+<pad name="P$9" x="51.232" y="66.49" drill="1.2"/>
+<pad name="P$10" x="53.772" y="66.49" drill="1.2"/>
+<pad name="P$11" x="51.232" y="63.95" drill="1.2"/>
+<pad name="P$12" x="53.772" y="63.95" drill="1.2"/>
+<pad name="P$13" x="51.232" y="61.41" drill="1.2"/>
+<pad name="P$14" x="53.772" y="61.41" drill="1.2"/>
+<pad name="P$15" x="51.232" y="58.87" drill="1.2"/>
+<pad name="P$16" x="53.772" y="58.87" drill="1.2"/>
+<pad name="P$17" x="51.232" y="56.33" drill="1.2"/>
+<pad name="P$18" x="53.772" y="56.33" drill="1.2"/>
+<pad name="P$19" x="51.232" y="53.79" drill="1.2"/>
+<pad name="P$20" x="53.772" y="53.79" drill="1.2"/>
+<pad name="P$21" x="51.232" y="51.25" drill="1.2"/>
+<pad name="P$22" x="53.772" y="51.25" drill="1.2"/>
+<pad name="P$23" x="51.232" y="48.71" drill="1.2"/>
+<pad name="P$24" x="53.772" y="48.71" drill="1.2"/>
+<pad name="P$25" x="51.232" y="46.17" drill="1.2"/>
+<pad name="P$26" x="53.772" y="46.17" drill="1.2"/>
+<pad name="P$27" x="51.232" y="43.63" drill="1.2"/>
+<pad name="P$28" x="53.772" y="43.63" drill="1.2"/>
+<pad name="P$29" x="51.232" y="41.09" drill="1.2"/>
+<pad name="P$30" x="53.772" y="41.09" drill="1.2"/>
+<pad name="P$31" x="51.232" y="38.55" drill="1.2"/>
+<pad name="P$32" x="53.772" y="38.55" drill="1.2"/>
+<pad name="P$33" x="51.232" y="36.01" drill="1.2"/>
+<pad name="P$34" x="53.772" y="36.01" drill="1.2"/>
+<pad name="P$35" x="51.232" y="33.47" drill="1.2"/>
+<pad name="P$36" x="53.772" y="33.47" drill="1.2"/>
+<pad name="P$37" x="51.232" y="30.93" drill="1.2"/>
+<pad name="P$38" x="53.772" y="30.93" drill="1.2"/>
+<pad name="P$39" x="51.232" y="28.39" drill="1.2"/>
+<pad name="P$40" x="53.772" y="28.39" drill="1.2"/>
+<pad name="P$41" x="3.515" y="81.498" drill="3.2" diameter="6"/>
+<pad name="P$42" x="3.492" y="23.501" drill="3.2" diameter="6"/>
+<pad name="P$43" x="52.497" y="23.494" drill="3.2" diameter="6"/>
+<pad name="P$44" x="52.487" y="81.506" drill="3.2" diameter="6"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOM-STM32MP157C" urn="urn:adsk.eagle:package:19056781/4" type="box">
@@ -1361,6 +1419,45 @@
 <wire x1="-8.89" y1="-43.18" x2="-10.16" y2="-43.18" width="0.254" layer="97"/>
 <text x="-8.128" y="-34.29" size="1.27" layer="97" ratio="15" rot="R90" align="top-center">DIFF IMPEDANCE: 90ohm</text>
 </symbol>
+<symbol name="NPI-STM32MP157C">
+<pin name="3V3" x="-2.54" y="27.94" length="short" direction="pwr" rot="R270"/>
+<pin name="5V" x="2.54" y="27.94" length="short" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-25.4" length="short" direction="sup" rot="R90"/>
+<pin name="I2C4_SDA" x="-20.32" y="22.86" length="short"/>
+<pin name="I2C4_SCL" x="-20.32" y="20.32" length="short"/>
+<pin name="I2C1_SDA" x="-20.32" y="15.24" length="short"/>
+<pin name="I2C1_SCL" x="-20.32" y="12.7" length="short"/>
+<pin name="SPI5_MOSI" x="-20.32" y="7.62" length="short"/>
+<pin name="SPI5_MISO" x="-20.32" y="5.08" length="short"/>
+<pin name="SPI5_CLK" x="-20.32" y="2.54" length="short"/>
+<pin name="SPI5_FS" x="-20.32" y="0" length="short"/>
+<pin name="I2S2_CK" x="-20.32" y="-5.08" length="short"/>
+<pin name="I2S2_WS" x="-20.32" y="-7.62" length="short"/>
+<pin name="A14" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="D4" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="I2S2_SDI" x="-20.32" y="-10.16" length="short"/>
+<pin name="I2S2_SDO" x="-20.32" y="-12.7" length="short"/>
+<pin name="E10" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="B2" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="A3" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="E14" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="D15" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="E9" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="C0" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="E7" x="20.32" y="-2.54" length="short" rot="R180"/>
+<pin name="E8" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="F3" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="D14" x="20.32" y="-10.16" length="short" rot="R180"/>
+<pin name="E15" x="20.32" y="-12.7" length="short" rot="R180"/>
+<pin name="RXD" x="-20.32" y="-20.32" length="short"/>
+<pin name="TXD" x="-20.32" y="-17.78" length="short"/>
+<wire x1="-17.78" y1="25.4" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
+<text x="12.7" y="30.48" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="12.7" y="27.94" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SOM-STM32MP157C">
@@ -1586,6 +1683,51 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:19056781/4"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NPI-STM32MP157C">
+<gates>
+<gate name="G$1" symbol="NPI-STM32MP157C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NPI-STM32MP157C">
+<connects>
+<connect gate="G$1" pin="3V3" pad="P$1 P$17"/>
+<connect gate="G$1" pin="5V" pad="P$2 P$4"/>
+<connect gate="G$1" pin="A14" pad="P$7"/>
+<connect gate="G$1" pin="A3" pad="P$29"/>
+<connect gate="G$1" pin="B2" pad="P$15"/>
+<connect gate="G$1" pin="C0" pad="P$16"/>
+<connect gate="G$1" pin="D14" pad="P$32"/>
+<connect gate="G$1" pin="D15" pad="P$33"/>
+<connect gate="G$1" pin="D4" pad="P$11"/>
+<connect gate="G$1" pin="E10" pad="P$13"/>
+<connect gate="G$1" pin="E14" pad="P$31"/>
+<connect gate="G$1" pin="E15" pad="P$36"/>
+<connect gate="G$1" pin="E7" pad="P$18"/>
+<connect gate="G$1" pin="E8" pad="P$22"/>
+<connect gate="G$1" pin="E9" pad="P$37"/>
+<connect gate="G$1" pin="F3" pad="P$26"/>
+<connect gate="G$1" pin="GND" pad="P$6 P$9 P$14 P$20 P$25 P$30 P$34 P$39 P$41 P$42 P$43 P$44"/>
+<connect gate="G$1" pin="I2C1_SCL" pad="P$28"/>
+<connect gate="G$1" pin="I2C1_SDA" pad="P$27"/>
+<connect gate="G$1" pin="I2C4_SCL" pad="P$5"/>
+<connect gate="G$1" pin="I2C4_SDA" pad="P$3"/>
+<connect gate="G$1" pin="I2S2_CK" pad="P$12"/>
+<connect gate="G$1" pin="I2S2_SDI" pad="P$38"/>
+<connect gate="G$1" pin="I2S2_SDO" pad="P$40"/>
+<connect gate="G$1" pin="I2S2_WS" pad="P$35"/>
+<connect gate="G$1" pin="RXD" pad="P$10"/>
+<connect gate="G$1" pin="SPI5_CLK" pad="P$23"/>
+<connect gate="G$1" pin="SPI5_FS" pad="P$24"/>
+<connect gate="G$1" pin="SPI5_MISO" pad="P$21"/>
+<connect gate="G$1" pin="SPI5_MOSI" pad="P$19"/>
+<connect gate="G$1" pin="TXD" pad="P$8"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
